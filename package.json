@@ -1,0 +1,53 @@
+{
+	"name": "nightfall-coder",
+	"displayName": "Nightfall Coder",
+	"description": "A balanced dark theme made for both visual appeal and a productive coding environment.",
+	"version": "0.0.1",
+	"publisher": "Mugen",
+	"license": "Apache-2.0",
+	"engines": {
+		"vscode": "^1.86.0"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"clean",
+		"dark theme",
+		"moon",
+		"bitstream",
+		"vibrancy",
+		"clarity",
+		"sleek",
+		"modern",
+		"bit",
+		"stream",
+		"nightfall",
+		"coder"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/MugenRoy/nightfall-coder-vscode-theme/",
+	"repository": {
+		"url": "https://github.com/MugenRoy/nightfall-coder-vscode-theme/",
+		"type": "git"
+	},
+	"galleryBanner": {
+		"color": "#12131e",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nightfall Coder",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nightfall-coder-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 84860
+	}
+}
