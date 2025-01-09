@@ -1,9 +1,8 @@
-<p style="text-align: center;">
-<img src="https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/icon.png" height="130" width="130"/>
-</p>
+# [Nightfall Coder](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder)
 
-<h1 style="text-align: center;">Nightfall Coder</h1>
+## Highlights
 
+*   **Clean and modern design :** The theme is designed to provide a clean and modern look, making it easy to read and write code.
 *   **Comfortable dark background :** Provides excellent contrast and reduces eye strain during long coding sessions, especially in low-light conditions.
 *   **Distinctive color palette :** Ensures a harmonious and visually appealing coding experience.
 *   **Support for various languages :** Tested with common languages like JavaScript, Python, C++ and more.
@@ -17,5 +16,5 @@
 
 ![Screenshot - 3](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/python.png)
 
-**Enjoy the theme!**
+**Try it out**
 
