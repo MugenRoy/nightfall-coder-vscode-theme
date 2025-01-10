@@ -2,7 +2,7 @@
 	"name": "nightfall-coder",
 	"displayName": "Nightfall Coder",
 	"description": "A balanced dark theme made for both visual appeal and a productive coding environment.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "Mugen",
 	"license": "Apache-2.0",
 	"engines": {
@@ -22,7 +22,13 @@
 		"bit",
 		"stream",
 		"nightfall",
-		"coder"
+		"coder",
+		"night",
+		"pretty",
+		"owl",
+		"beautiful",
+		"violet",
+		"light blue"
 	],
 	"icon": "icon.png",
 	"homepage": "https://github.com/MugenRoy/nightfall-coder-vscode-theme/",
@@ -31,7 +37,7 @@
 		"type": "git"
 	},
 	"galleryBanner": {
-		"color": "#12131e",
+		"color": "#15151e",
 		"theme": "dark"
 	},
 	"categories": [

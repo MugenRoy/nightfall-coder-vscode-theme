@@ -1,20 +1,71 @@
-# [Nightfall Coder](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder)
+<br>
 
-## Highlights
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/icon.png" alt="logo" width="150" height="150">
 
-*   **Clean and modern design :** The theme is designed to provide a clean and modern look, making it easy to read and write code.
-*   **Comfortable dark background :** Provides excellent contrast and reduces eye strain during long coding sessions, especially in low-light conditions.
-*   **Distinctive color palette :** Ensures a harmonious and visually appealing coding experience.
-*   **Support for various languages :** Tested with common languages like JavaScript, Python, C++ and more.
-*   **Bracket Pair colorization support :** Full support for VS Code's Bracket Pair Colorization feature, making it easy to visually distinguish nested code blocks.
+<br>
 
-## Screenshots
+# [Nightfall Coder](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder) <br> <br>
+</div>
 
-![Screenshot - 1](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/html.png)
+<div align="center">
 
-![Screenshot - 2](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/c++.png)
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/mugen.nightfall-coder/Nightfall%20Coder)
 
-![Screenshot - 3](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/python.png)
+</div>
+This theme is designed to :
 
-**Try it out**
+-   _Provide_ excellent contrast and reduce eye strain during long coding sessions, especially in low-light conditions.
+-   _Ensure_ a balanced color scheme, offering a visually appealing coding experience.
+-   _Work_ with common languages like JavaScript_, Python, C++ and more.
+-   _Fully support_ VS Code's Bracket Pair Colorization feature, making it easy to visually distinguish nested code blocks.
+
+## Showcase ( Simple Snippet )
+
+![Screenshot](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/javascript.png)
+
+Font used in the snippet is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
+
+## Disabling Italics
+Paste this into your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) to disable italics.
+
+```javascript
+"editor.tokenColorCustomizations": {
+    "[Nightfall Coder]": { 
+        "textMateRules": [{
+            "scope": [
+                "keyword.control",
+                "keyword.other",
+                "storage.type", 
+                "storage.modifier", 
+                "storage.control",
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }]
+    }
+}
+```
+
+## Basic Color Palette
+
+ Color                                                                                      | Used for:                                                 |
+ --------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+ ![#E4B1F0](https://www.colorbook.io/imagecreator.php?hex=E4B1F0&width=15&height=15) `#E4B1F0` | Strings                                                   |                                |
+ ![#6D6D6D](https://www.colorbook.io/imagecreator.php?hex=6D6D6D&width=15&height=15) `#6D6D6D` | Comments                                                  |
+ ![#AAA0FA](https://www.colorbook.io/imagecreator.php?hex=AAA0FA&width=15&height=15) `#AAA0FA` | Functions                                               
+ ![#c3d78ed9](https://www.colorbook.io/imagecreator.php?hex=c3d78ed9&width=15&height=15) `#c3d78ed9` | Numbers                                       |
+ ![#83D6C5](https://www.colorbook.io/imagecreator.php?hex=83D6C5&width=15&height=15) `#83D6C5` | Keywords                                      |
+ ![#68a9dd](https://www.colorbook.io/imagecreator.php?hex=68a9dd&width=15&height=15) `#68a9dd` | Operators             |
+ ![#db4b4b](https://www.colorbook.io/imagecreator.php?hex=db4b4b&width=15&height=15) `#db4b4b` | Error                                    |
+ ![#a9b1d6](https://www.colorbook.io/imagecreator.php?hex=a9b1d6&width=15&height=15) `##a9b1d6` | Variables & Parameters   
+
+<br>
+
+<div align="center"> 
+
+**Try it out!**
+
+</div>
 
