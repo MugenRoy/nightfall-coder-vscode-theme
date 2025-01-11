@@ -26,6 +26,18 @@ This theme is designed to :
 
 Font used in the snippet is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
 
+## Installation
+
+1. Open VS Code.
+2. Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
+3. Search for "Nightfall Coder".
+4. Click Install.
+5. Press `Ctrl+K`, `Ctrl+T` (or `Cmd+K`, `Cmd+T` on macOS) to open the theme selector.
+6. Select "Nightfall Coder".
+
+Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder).
+
+
 ## Disabling Italics
 Paste this into your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) to disable italics.
 
@@ -65,7 +77,10 @@ Paste this into your [settings.json](https://code.visualstudio.com/docs/getstart
 
 <div align="center"> 
 
+## License
+
+[Apache 2.0 © 2025 Shaswata Roy](./LICENSE)
+
 **Try it out!**
 
 </div>
-

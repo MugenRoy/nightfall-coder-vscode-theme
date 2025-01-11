@@ -397,6 +397,7 @@
     {
       "name": "Keyword Control and Other",
       "scope": [
+        "keyword",
         "keyword.control",
         "keyword.other"
       ],
@@ -419,7 +420,8 @@
           "support.function",
           "support.constant.handlebars",
           "source.powershell variable.other.member",
-          "entity.name.operator.custom-literal"
+          "entity.name.operator.custom-literal",
+          "entity.source.cmake"
       ],
       "settings": {
           "foreground": "#AAA0FA"
