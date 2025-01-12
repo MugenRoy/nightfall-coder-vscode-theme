@@ -88,7 +88,7 @@
     "editorGroupHeader.border": "#2c2d34",
     "editorGutter.addedBackground": "#2EA043", // For later
     "editorGutter.deletedBackground": "#db4b4b",
-    "editorGutter.modifiedBackground": "#68a9dd",
+    "editorGutter.modifiedBackground": "#89B4FA",
     "editorLineNumber.foreground": "#404561", // #363b54
     "editorLineNumber.activeForeground": "#a9b1d6",
     "editor.lineHighlightBackground": "#1e202e",
@@ -101,7 +101,7 @@
     "editorOverviewRuler.errorForeground": "#db4b4b",
     "editorOverviewRuler.warningForeground": "#e0af68",
     "editorOverviewRuler.infoForeground": "#1abc9c",
-    "editorOverviewRuler.modifiedForeground": "#68a9dd",
+    "editorOverviewRuler.modifiedForeground": "#89B4FA",
     "editorOverviewRuler.addedForeground": "#2EA043",
     "editorOverviewRuler.deletedForeground": "#db4b4b",
     "editorOverviewRuler.bracketMatchForeground": "#2c2d34",
@@ -278,7 +278,7 @@
     "diffEditor.diagonalFill": "#292e42",
     "diffEditor.unchangedCodeBackground": "#282a3b66",
     // Minimap
-    "minimapGutter.modifiedBackground": "#68a9dd", // #425882
+    "minimapGutter.modifiedBackground": "#89B4FA", // #425882
     "minimapGutter.addedBackground": "#2EA043", // #1C5957
     "minimapGutter.deletedBackground": "#db4b4b", // #944449",
     // Charts
@@ -349,7 +349,7 @@
     "notebook.focusedCellBorder": "#29355a",
     "notebook.cellStatusBarItemHoverBackground": "#1c1d29",
     // Git
-    "gitDecoration.modifiedResourceForeground": "#68a9dd",
+    "gitDecoration.modifiedResourceForeground": "#89B4FA",
     "gitDecoration.ignoredResourceForeground": "#515670",
     "gitDecoration.deletedResourceForeground": "#db4b4b",
     "gitDecoration.renamedResourceForeground": "#449dab",
@@ -357,7 +357,7 @@
     "gitDecoration.untrackedResourceForeground": "#449dab",
     "gitDecoration.conflictingResourceForeground": "#e0af68cc",
     "gitDecoration.stageDeletedResourceForeground": "#914c54",
-    "gitDecoration.stageModifiedResourceForeground": "#68a9dd",
+    "gitDecoration.stageModifiedResourceForeground": "#89B4FA",
     // Input Validation
     "inputValidation.infoForeground": "#bbc2e0",
     "inputValidation.infoBackground": "#3d59a15c",
@@ -370,12 +370,6 @@
     "inputValidation.errorBorder": "#db4b4b",
   },
   "tokenColors": [
-    {
-      "name": "Global settings",
-      "settings": {
-        "foreground": "#a9b1d6"
-      }
-    },
     {
       "name": "Comment",
       "scope": "comment",
@@ -410,7 +404,7 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-          "foreground": "#68a9dd"
+          "foreground": "#89B4FA"
       }
     },
     {
@@ -421,7 +415,8 @@
           "support.constant.handlebars",
           "source.powershell variable.other.member",
           "entity.name.operator.custom-literal",
-          "entity.source.cmake"
+          "entity.source.cmake",
+          "constant.character.entity"
       ],
       "settings": {
           "foreground": "#AAA0FA"
@@ -439,7 +434,7 @@
       "name": "Number",
       "scope": "constant.numeric, keyword.control.directive",
       "settings": {
-        "foreground": "#c3d78ed9",
+        "foreground": "#DEC76E",
         "fontStyle": ""
       }
     },
@@ -516,7 +511,7 @@
       "name": "JSON Constant Numeric",
       "scope": "constant.numeric.json",
       "settings": {
-        "foreground": "#c3d78ed9"
+        "foreground": "#DEC76E"
       }
     },
     // JSON End
@@ -604,7 +599,7 @@
         "name": "Diff - Changed",
         "scope": "markup.changed",
         "settings": {
-            "foreground": "#68a9dd"
+            "foreground": "#89B4FA"
         }
     },
     // MARKUP Diff End
@@ -636,14 +631,14 @@
       "name": "CSS Tag",
       "scope": "entity.name.tag.css, entity.other.attribute-name.class.css",
       "settings": {
-        "foreground": "#68a9dd"
+        "foreground": "#89B4FA"
       }
     },
     {
       "name": "CSS Id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#c3d78ed9"
+        "foreground": "#DEC76E"
       }
     },
     // CSS End
@@ -653,6 +648,6 @@
     "newOperator": "#83D6C5",
     "stringLiteral": "#E4B1F0",
     "customLiteral": "#AAA0FA",
-    "numberLiteral": "#c3d78ed9" // #c3d78ed9 #7ccb72c
+    "numberLiteral": "#DEC76E" // #DEC76E #7ccb72c
   }
 }

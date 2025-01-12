@@ -67,7 +67,7 @@ Paste this into your [settings.json](https://code.visualstudio.com/docs/getstart
 ![#E4B1F0](https://www.colorbook.io/imagecreator.php?hex=E4B1F0&width=15&height=15) `#E4B1F0` | Strings                                                   |  
 ![#6D6D6D](https://www.colorbook.io/imagecreator.php?hex=6D6D6D&width=15&height=15) `#6D6D6D` | Comments                                                  |
 ![#AAA0FA](https://www.colorbook.io/imagecreator.php?hex=AAA0FA&width=15&height=15) `#AAA0FA` | Functions                                                 |
-![#c3d78ed9](https://www.colorbook.io/imagecreator.php?hex=c3d78ed9&width=15&height=15) `#c3d78ed9` | Numbers                                             |
+![#DEC76E](https://www.colorbook.io/imagecreator.php?hex=DEC76E&width=15&height=15) `#DEC76E` | Numbers                                             |
 ![#83D6C5](https://www.colorbook.io/imagecreator.php?hex=83D6C5&width=15&height=15) `#83D6C5` | Keywords                                                  |
 ![#68a9dd](https://www.colorbook.io/imagecreator.php?hex=68a9dd&width=15&height=15) `#68a9dd` | Operators                                                 |
 ![#db4b4b](https://www.colorbook.io/imagecreator.php?hex=db4b4b&width=15&height=15) `#db4b4b` | Error                                                     |
