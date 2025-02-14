@@ -6,6 +6,7 @@
 <br>
 
 # [Nightfall Coder](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder) <br> <br>
+
 </div>
 
 <div align="center">
@@ -15,16 +16,24 @@
 </div>
 This theme is designed to :
 
--   _Provide_ excellent contrast and reduce eye strain during long coding sessions, especially in low-light conditions.
--   _Ensure_ a balanced color scheme, offering a visually appealing coding experience.
--   _Work_ with common languages like JavaScript_, Python, C++ and more.
--   _Fully support_ VS Code's Bracket Pair Colorization feature, making it easy to visually distinguish nested code blocks.
+- _Provide_ excellent contrast and reduce eye strain during long coding sessions, especially in low-light conditions.
+- _Ensure_ a balanced color scheme, offering a visually appealing coding experience.
+- _Work_ with common languages like JavaScript_, Python, C++ and more.
+- _Fully support_ VS Code's Bracket Pair Colorization feature, making it easy to visually distinguish nested code blocks.
 
 ## Showcase ( Simple Snippet )
 
 ![Screenshot](https://raw.githubusercontent.com/MugenRoy/nightfall-coder-vscode-theme/main/images/javascript.png)
 
 Font used in the snippet is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
+
+## Themes
+
+This extension includes two themes:
+
+- Nightfall Coder
+
+- Nightfall Coder ( Borderless )
 
 ## Installation
 
@@ -37,8 +46,8 @@ Font used in the snippet is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/
 
 Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=mugen.nightfall-coder).
 
-
 ## Disabling Italics
+
 Paste this into your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) to disable italics.
 
 ```javascript
@@ -75,7 +84,7 @@ Paste this into your [settings.json](https://code.visualstudio.com/docs/getstart
 
 <br>
 
-<div align="center"> 
+<div align="center">
 
 ## License
 

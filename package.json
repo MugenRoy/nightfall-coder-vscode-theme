@@ -2,7 +2,7 @@
 	"name": "nightfall-coder",
 	"displayName": "Nightfall Coder",
 	"description": "A balanced dark theme made for both visual appeal and a productive coding environment.",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "Mugen",
 	"license": "Apache-2.0",
 	"engines": {
@@ -53,6 +53,11 @@
 				"label": "Nightfall Coder",
 				"uiTheme": "vs-dark",
 				"path": "./themes/nightfall-coder-theme.json"
+			},
+			{
+				"label": "Nightfall Coder ( Borderless )",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nightfall-coder-borderless-theme.json"
 			}
 		]
 	},

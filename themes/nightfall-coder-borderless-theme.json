@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Nightfall Coder",
+  "name": "Nightfall Coder ( Borderless )",
   "author": "Mugen",
   "type": "dark",
   "colors": {
@@ -8,7 +8,6 @@
     "activityBar.background": "#15151e",
     "activityBar.foreground": "#a9b1d6",
     "activityBar.activeBorder": "#a9b1d6",
-    "activityBar.border": "#2c2d34",
     "activityBar.inactiveForeground": "#d7d7d7ca",
     // Controls the color of the remote window button at the bottom of the activity bar too.
     "activityBarBadge.background": "#3d59a1",
@@ -28,9 +27,6 @@
     "chat.slashCommandBackground": "#3d59a1",
     "chat.slashCommandForeground": "#fff",
     "chat.editedFileForeground": "#e0af68",
-    // Checkbox (For later)
-    // "checkbox.background": "#6e6e81", 
-    "checkbox.border": "#2c2d34",
     // Debug Tool Bar
     "debugToolBar.background": "#2c2d34",
     // Description ( Can be seen in the extensions tab )
@@ -40,13 +36,11 @@
     // Can be seen in the activity bar settings button on hover
     "dropdown.background": "#14141b",
     // Can be seen in settings tab
-    "dropdown.border": "#2c2d34",
     "dropdown.listBackground": "#14141b",
     // Editor
     "editor.background": "#1a1a27",
     "editor.foreground": "#a9b1d6",
     "editor.findMatchBackground": "#9e5603",
-    "editorGroup.border": "#2c2d34",
     "editorError.foreground": "#db4b4b",
     "editorWarning.foreground": "#e0af68",
     "editorInfo.foreground": "#0da0ba",
@@ -54,7 +48,6 @@
     "editorLightBulb.foreground": "#f4e32b",
     "editorLightBulbAutoFix.foreground": "#f4e32b",
     "editorRuler.foreground": "#2c2d34",
-    "editorHoverWidget.border": "#2c2d34",
     "editorBracketMatch.background": "#15151e",
     "editorBracketMatch.border": "#a9b1d6",
     "editorBracketHighlight.unexpectedBracket.foreground": "#db4b4b",
@@ -77,15 +70,12 @@
     "editorPane.background": "#15151e",
     // Editor Suggest
     "editorSuggestWidget.background": "#15151e",
-    "editorSuggestWidget.border": "#2c2d34",
     "editorSuggestWidget.selectedBackground": "#20222c",
     "editorSuggestWidget.highlightForeground": "#6183bb",
     // Dragging a tab inside the editor will show the drop bg
     "editorGroup.dropBackground": "#1e202e88", // #1e2032e
-    "editorGroupHeader.tabsBorder": "#2c2d34",
     "editorGroupHeader.tabsBackground": "#15151e",
     "editorGroupHeader.noTabsBackground": "#15151e",
-    "editorGroupHeader.border": "#2c2d34",
     "editorGutter.addedBackground": "#2EA043", // For later
     "editorGutter.deletedBackground": "#db4b4b",
     "editorGutter.modifiedBackground": "#89B4FA",
@@ -97,7 +87,6 @@
     "editorCursor.foreground": "#a9b1d6",
     // ScrollBar
     "scrollbar.shadow": "#00000030",
-    "editorOverviewRuler.border": "#2c2d34",
     "editorOverviewRuler.errorForeground": "#db4b4b",
     "editorOverviewRuler.warningForeground": "#e0af68",
     "editorOverviewRuler.infoForeground": "#1abc9c",
@@ -118,9 +107,7 @@
     // Normal Stuffs
     "foreground": "#d7d7d7ca",
     "icon.foreground": "#d7d7d7ca",
-    "focusBorder": "#545c7e33",
     "errorForeground": "#db4b4b",
-    "widget.border": "#2c2d34",
     "selection.background": "#515c7e4d",
     "walkThrough.embeddedEditorBackground": "#15151e",
     "textLink.foreground": "#6183bb",
@@ -133,7 +120,6 @@
     // Input Box
     "input.background": "#222329",
     "input.foreground": "#d7d7d7ca",
-    "input.border": "#2c2d34",
     "input.placeholderForeground": "#d7d7d7ca",
     "inputOption.activeForeground": "#a9b1d6",
     "inputOption.activeBackground": "#3d59a1",
@@ -142,12 +128,10 @@
     "menu.background": "#15151e",
     "menu.selectionForeground": "#a9b1d6",
     "menu.selectionBackground": "#1e202e",
-    "menu.separatorBackground": "#2c2d34",
-    "menu.border": "#2c2d34",
+    // "menu.separatorBackground": "#2c2d34",
     // Menu Bar
     "menubar.selectionForeground": "#a9b1d6",
     "menubar.selectionBackground": "#1e202e",
-    "menubar.selectionBorder": "#1b1e2e",
     // Notification Center
     "notificationLink.foreground": "#6183bb",
     "notificationsErrorIcon.foreground": "#db4b4b",
@@ -155,40 +139,26 @@
     "notificationsInfoIcon.foreground": "#3d59a1",
     // Panel
     "panel.background": "#15151e",
-    "panel.border": "#2c2d34",
     "panelTitle.activeForeground": "#a9b1d6",
     "panelTitle.inactiveForeground": "#d7d7d79c",
-    "panelTitle.activeBorder": "#15151e",
-    "panelInput.border": "#2c2d34",
     // Titlebar
     "titleBar.activeForeground": "#d7d7d7ca",
     "titleBar.inactiveForeground": "#d7d7d7ca",
     "titleBar.activeBackground": "#15151e",
     "titleBar.inactiveBackground": "#15151e",
-    "titleBar.border": "#2c2d34",
-    // MacOS and Linux
-    "window.activeBorder": "#2c2d34",
-    "window.inactiveBorder": "#2c2d34",
     // Tab
     "tab.activeBackground": "#1a1a27",
-    "tab.activeBorder": "#1a1a27",
     "tab.activeBorderTop": "#3d59a1",
     "tab.activeForeground": "#a9b1d6",
     "tab.inactiveBackground": "#15151e",
     "tab.hoverBackground": "#1a1a27",
     "tab.inactiveForeground": "#d7d7d7ca",
-    "tab.border": "#2c2d34",
     "tab.unfocusedActiveForeground": "#a9b1d6",
     "tab.unfocusedInactiveForeground": "#d7d7d7ca",
     "tab.unfocusedHoverForeground": "#a9b1d6",
-    "tab.activeModifiedBorder": "#1a1a27", // #1a1a287 #1b1b296
-    "tab.inactiveModifiedBorder": "#2c2d34",
-    "tab.unfocusedActiveBorder": "#2c2d34",
-    "tab.lastPinnedBorder": "#2c2d34",
     // Status Bar
     "statusBar.foreground": "#d7d7d7ca",
     "statusBar.background": "#15151e",
-    "statusBar.border": "#2c2d34",
     "statusBar.noFolderBackground": "#15151e",
     "statusBar.debuggingBackground": "#15151e",
     "statusBar.debuggingForeground": "#a9b1d6",
@@ -200,16 +170,12 @@
     "progressBar.background": "#3d59a1",
     // Settings
     "settings.headerForeground": "#6183bb",
-    // Command Pallete
-    // "quickInput.background": "#121119",
     // Sidebar
     "sideBar.foreground": "#d7d7d7ca",
     "sideBar.background": "#15151e",
-    "sideBar.border": "#2c2d34",
     "sideBarTitle.foreground": "#d7d7d7ca",
     "sideBarSectionHeader.background": "#15151e",
     "sideBarSectionHeader.foreground": "#a9b1d6",
-    "sideBarSectionHeader.border": "#2c2d34",
     "sideBar.dropBackground": "#1e202e88",
     // Breadcrumb ( The thing that shows where you are in your code just above the editor )
     "breadcrumb.background": "#1a1a27",
@@ -218,7 +184,6 @@
     "breadcrumb.focusForeground": "#a9b1d6",
     "breadcrumb.activeSelectionForeground": "#a9b1d6",
     // Peekview
-    "peekView.border": "#2c2d34",
     "peekViewEditor.background": "#15151e",
     "peekViewEditor.matchHighlightBackground": "#515c7e4d",
     "peekViewTitle.background": "#2c2d34",
@@ -232,7 +197,6 @@
     "peekViewResult.matchHighlightBackground": "#515c7e4d",
     // Picker
     "pickerGroup.foreground": "#a9b1d6",
-    "pickerGroup.border": "#2c2d34",
     // Terminal
     "terminal.background": "#15151e",
     "terminal.foreground": "#a9b1d6",
@@ -258,7 +222,6 @@
     "debugExceptionWidget.background": "#2c2d34",
     // Multi Diff Editor
     "multiDiffEditor.headerBackground": "#1a1a27",
-    "multiDiffEditor.border": "#1a1a27",
     // Tool Bar ( Toggle buttons upper left )
     "toolbar.activeBackground": "#2c2d34",
     "toolbar.hoverBackground": "#2c2d34",
@@ -345,8 +308,6 @@
     // Notebook
     "notebook.editorBackground": "#1a1a27",
     "notebook.cellEditorBackground": "#15151e",
-    "notebook.cellBorderColor": "#2c2d34",
-    "notebook.focusedCellBorder": "#29355a",
     "notebook.cellStatusBarItemHoverBackground": "#1c1d29",
     // Git
     "gitDecoration.modifiedResourceForeground": "#89B4FA",
@@ -374,16 +335,17 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-          "foreground": "#6D6D6D"
+        "foreground": "#6D6D6D"
       }
     },
     {
       "name": "String",
-      "scope": ["string", 
-                "meta.embedded.assembly",
-                "string.tag",
-                "string.value",
-                ],
+      "scope": [
+        "string",
+        "meta.embedded.assembly",
+        "string.tag",
+        "string.value",
+      ],
       "settings": {
         "foreground": "#E4B1F0"
       }
@@ -404,23 +366,23 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-          "foreground": "#89B4FA",
-          "fontStyle": ""
+        "foreground": "#89B4FA",
+        "fontStyle": ""
       }
     },
     {
       "name": "Function Declarations",
       "scope": [
-          "entity.name.function",
-          "support.function",
-          "support.constant.handlebars",
-          "source.powershell variable.other.member",
-          "entity.name.operator.custom-literal",
-          "entity.source.cmake",
-          "constant.character.entity"
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars",
+        "source.powershell variable.other.member",
+        "entity.name.operator.custom-literal",
+        "entity.source.cmake",
+        "constant.character.entity"
       ],
       "settings": {
-          "foreground": "#AAA0FA"
+        "foreground": "#AAA0FA"
       }
     },
     {
@@ -442,44 +404,44 @@
     {
       "name": "Types declaration and references",
       "scope": [
-          "support.class",
-          "support.type",
-          "entity.name.type",
-          "entity.name.namespace",
-          "entity.other.attribute",
-          "entity.name.scope-resolution",
-          "entity.name.class",
-          "storage.type.numeric.go",
-          "storage.type.byte.go",
-          "storage.type.boolean.go",
-          "storage.type.string.go",
-          "storage.type.uintptr.go",
-          "storage.type.error.go",
-          "storage.type.rune.go",
-          "storage.type.cs",
-          "storage.type.generic.cs",
-          "storage.type.modifier.cs",
-          "storage.type.variable.cs",
-          "storage.type.annotation.java",
-          "storage.type.generic.java",
-          "storage.type.java",
-          "storage.type.object.array.java",
-          "storage.type.primitive.array.java",
-          "storage.type.primitive.java",
-          "storage.type.token.java",
-          "storage.type.groovy",
-          "storage.type.annotation.groovy",
-          "storage.type.parameters.groovy",
-          "storage.type.generic.groovy",
-          "storage.type.object.array.groovy",
-          "storage.type.primitive.array.groovy",
-          "storage.type.primitive.groovy",
-          "storage.modifier.import.java",
-          "storage.modifier.package.java"
+        "support.class",
+        "support.type",
+        "entity.name.type",
+        "entity.name.namespace",
+        "entity.other.attribute",
+        "entity.name.scope-resolution",
+        "entity.name.class",
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.annotation.java",
+        "storage.type.generic.java",
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
+        "storage.type.token.java",
+        "storage.type.groovy",
+        "storage.type.annotation.groovy",
+        "storage.type.parameters.groovy",
+        "storage.type.generic.groovy",
+        "storage.type.object.array.groovy",
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy",
+        "storage.modifier.import.java",
+        "storage.modifier.package.java"
       ],
       "settings": {
-          "foreground": "#d7d7d7ca",
-          "fontStyle": ""
+        "foreground": "#d7d7d7ca",
+        "fontStyle": ""
       }
     },
     {
@@ -545,7 +507,7 @@
       "settings": {
         "fontStyle": "italic"
       }
-    }, 	
+    },
     {
       "name": "Markdown - Strikethrough",
       "scope": [
@@ -559,7 +521,7 @@
       "name": "Markdown - Blockquote",
       "scope": "punctuation.definition.quote.begin.markdown",
       "settings": {
-          "foreground": "#ffc2e29e"
+        "foreground": "#ffc2e29e"
       }
     },
     {
@@ -586,22 +548,22 @@
       "name": "Diff - inserted",
       "scope": "markup.inserted",
       "settings": {
-          "foreground": "#2EA043"
+        "foreground": "#2EA043"
       }
     },
     {
       "name": "Diff - Deleted",
       "scope": "markup.deleted, invalid",
       "settings": {
-          "foreground": "#db4b4b"
+        "foreground": "#db4b4b"
       }
     },
     {
-        "name": "Diff - Changed",
-        "scope": "markup.changed",
-        "settings": {
-            "foreground": "#89B4FA"
-        }
+      "name": "Diff - Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#89B4FA"
+      }
     },
     // MARKUP Diff End
     // HTML Start
@@ -609,7 +571,7 @@
       "name": "Brackets of XML/HTML tags",
       "scope": "punctuation.definition.tag",
       "settings": {
-          "foreground": "#d7d7d7ca"
+        "foreground": "#d7d7d7ca"
       }
     },
     {
@@ -623,7 +585,7 @@
       "name": "HTML Attribute Name",
       "scope": "entity.other.attribute-name, support.type.property-name",
       "settings": {
-          "foreground": "#AAA0FA"
+        "foreground": "#AAA0FA"
       }
     },
     // HTML End
